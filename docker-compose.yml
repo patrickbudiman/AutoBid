@@ -1,0 +1,17 @@
+networks:
+  custom:
+    ipam:
+      config:
+        - subnet: 10.5.0.0/16
+
+services:
+  postgres:
+    image: postgres
+    environment:
+      - POSTGRES_PASSWORD=saonly
+    ports:
+      - 5432:5432
+    volumes:
+      - pgdata:/var/lib/postresql/data
+volumes:
+  pgdata:

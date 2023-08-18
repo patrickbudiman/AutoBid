@@ -1,0 +1,15 @@
+Car Auction Build using Dotnet Microservices, PostgreSQL, NEXT JS
+
+Auction Service : 7001
+
+to create migration:
+dotnet ef migrations add "InitialCreate" -o Data/Migrations
+
+to run docker:
+docker compose up -d
+
+to update database:
+dotnet ef database update
+
+to drop database:
+dotnet ef database drop
