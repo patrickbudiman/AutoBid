@@ -8,6 +8,7 @@ Search Service : 7002
 
 to create migration:
 dotnet ef migrations add "InitialCreate" -o Data/Migrations
+dotnet ef migrations add Outbox
 
 to run docker:
 docker compose up -d
