@@ -4,6 +4,7 @@ dotnet build
 dotnet watch
 
 Identity Server : http://localhost:5000
+Gateway Server : http://localhost:6001
 Auction Service : 7001
 Search Service : 7002
 
