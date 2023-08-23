@@ -3,6 +3,7 @@ Car Auction Build using Dotnet Microservices, PostgreSQL, NEXT JS
 dotnet build
 dotnet watch
 
+Identity Server : http://localhost:5000
 Auction Service : 7001
 Search Service : 7002
 
@@ -21,3 +22,7 @@ dotnet ef database drop
 
 to stop existing mongodb :
 net stop mongodb
+
+user:
+tom
+Pass123$
