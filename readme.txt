@@ -25,5 +25,6 @@ to stop existing mongodb :
 net stop mongodb
 
 user:
-tom
+bob/alice
 Pass123$
+
