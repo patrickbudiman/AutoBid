@@ -12,6 +12,9 @@ to create migration:
 dotnet ef migrations add "InitialCreate" -o Data/Migrations
 dotnet ef migrations add Outbox
 
+if there are any code changes:
+docker compose build
+
 to run docker:
 docker compose up -d
 
