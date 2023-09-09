@@ -6,13 +6,13 @@ networks:
 
 services:
   postgres:
-    image: postgres
+    image: postgres:latest
     environment:
       - POSTGRES_PASSWORD=saonly
     ports:
       - 5432:5432
     volumes:
-      - pgdata:/var/lib/postresql/data
+      - pgdata:/var/lib/postgresql/data
     networks:
       custom:
   mongodb:
